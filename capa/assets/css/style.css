@@ -1,0 +1,381 @@
+
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+body {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  animation-name: bg-animation;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 300ms;
+  animation-fill-mode:forwards;
+}
+
+img {
+  max-width: 100%;
+}
+
+.arte-esquerda {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  animation-name: arte-esquerda;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 300ms;
+  animation-fill-mode:backwards;
+  width: 33vw;
+}
+
+.arte-direita {
+  position: fixed;
+  top: 0;
+  right: 0;
+  animation-name: arte-direita;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 300ms;
+  animation-fill-mode:backwards;
+  width: 35.3vw;
+}
+
+.capa-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.mulher {
+  position: fixed;
+  left: 0;
+  bottom: 0%;
+  width: 68.5vw;
+  animation-name: mulher;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 300ms;
+  animation-fill-mode:backwards;
+}
+
+.titulo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.vaso-bg {
+  position: fixed;
+  left: 36.3vw;
+  bottom: 5.6vw;
+  width: 30.5vw;
+  animation-name: mulher;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 300ms;
+  animation-fill-mode:backwards;
+}
+
+.flores {
+  width: 37.5vw;
+  height: 39vw;
+  position: absolute;
+  left: 33.5vw;
+  bottom: 8vw;
+  animation-name: mulher;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 300ms;
+  animation-fill-mode: backwards;
+  overflow: hidden;
+}
+
+.flor {
+  position: absolute;
+}
+
+.flor-1 {
+  width: 10vw;
+  bottom: 0vw;
+  right: 0;
+  animation-name: revela-flor-1;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+}
+
+.flor-2 {
+  width: 10vw;
+  bottom: 0vw;
+  left: 13vw;
+  animation-name: revela-flor-2;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+} 
+
+.flor-3 {
+  width: 12vw;
+  bottom: 0vw;
+  left: 0vw;
+  animation-name: revela-flor-3;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+} 
+
+.flor-4 {
+  width: 14vw;
+  bottom: -1vw;
+  left: 24vw;
+  animation-name: revela-flor-4;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+}
+
+.flor-5 {
+  width: 14.634vw;
+  bottom: -2vw;
+  left: 13vw;
+  animation-name: revela-flor-4;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+.flor-6 {
+  width: 14.634vw;
+  bottom: -2vw;
+  left: 2vw;
+  animation-name: revela-flor-3;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.8s;
+  animation-fill-mode: backwards;
+}
+
+.flor-7 {
+  width: 14.634vw;
+  bottom: -2vw;
+  left: 22vw;
+  animation-name: revela-flor-7;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+.flor-8 {
+  width: 9vw;
+  bottom: -2vw;
+  left: 11vw;
+  animation-name: revela-flor-7;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.7s;
+  animation-fill-mode: backwards;
+}
+
+.flor-9 {
+  width: 13.33vw;
+  bottom: -2vw;
+  left: 3vw;
+  animation-name: revela-flor-7;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.7s;
+  animation-fill-mode: backwards;
+}
+
+.menu {
+  border: 2px solid #262626;
+  background: #fff;
+  padding: 30px;
+  border-radius: 40px;
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  background: linear-gradient(to bottom, #fff, #fff, #cccccc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 10px;
+  animation-name: menu;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.7s;
+  animation-fill-mode: backwards;
+  max-width: 80%;
+}
+
+
+.menu a {
+  font-family: roboto;
+  height: 70px;
+  color: #fff;
+  border: 2px solid #262626;
+  background-color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 500ms;
+  position: relative;
+  background: linear-gradient(to right, #fe3f86, #be2747);
+}
+
+.menu a::before {
+  position: absolute;
+  content: "Botão";
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  transition: 400ms;
+  display: flex;
+  color: #262626;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a:nth-child(1)::before {
+  content: "Relembrando os módulos anteriores";
+}
+
+.menu a:nth-child(2)::before {
+  content: "Fomento à cultura";
+}
+
+.menu a:nth-child(3)::before {
+  content: "Políticas públicas para a cultura";
+}
+
+
+.menu a:hover::before {
+  opacity: 0;
+}
+
+@keyframes bg-animation {
+  0%   {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+
+@keyframes arte-esquerda {
+  0%   {
+    transform: translateY(400px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes arte-direita {
+  0%   {
+    transform: translateY(-400px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes mulher {
+  0%   {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes revela-flor-1 {
+  0%   {
+    transform: translate(-400px, 400px);
+    width: 1vw;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes revela-flor-2 {
+  0%   {
+    transform: translateY(400px);
+    width: 1vw;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes revela-flor-3 {
+  0%   {
+    transform: translate(400px, 400px);
+    width: 1vw;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes revela-flor-4 {
+  0%   {
+    transform: translateY(500px);
+    width: 1vw;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes revela-flor-7 {
+  0%   {
+    transform: translateY(700px);
+    width: 1vw;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+
+@keyframes menu {
+  0%   {
+    transform: translatex(500px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .menu {
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .menu {
+    padding: 20px;
+  }
+}
+
+
