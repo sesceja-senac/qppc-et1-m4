@@ -15,6 +15,7 @@
 /* VALORES DEFAULT DE TUDO*/
 
 
+
 .pagina a:link	{
   color: (internal value);
   text-decoration: underline;
@@ -847,5 +848,9 @@ iframe, iframe.youtube-pl{
   display: none;
 }
 
+
+img {
+  max-width: 100% !important;
+}
 
 

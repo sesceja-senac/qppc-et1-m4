@@ -220,6 +220,12 @@ img {
   max-width: 80%;
 }
 
+.menu h3 {
+  font-family: roboto;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
 
 .menu a {
   font-family: roboto;
@@ -254,15 +260,15 @@ img {
   justify-content: center;
 }
 
-.menu a:nth-child(1)::before {
+.menu a:nth-child(2)::before {
   content: "Relembrando os módulos anteriores";
 }
 
-.menu a:nth-child(2)::before {
+.menu a:nth-child(3)::before {
   content: "Fomento à cultura";
 }
 
-.menu a:nth-child(3)::before {
+.menu a:nth-child(4)::before {
   content: "Políticas públicas para a cultura";
 }
 

@@ -12,6 +12,33 @@ function checkCounter(counter) {
     case 2:
       piramideImg.setAttribute("src", "./assets/pagina3/p3.png")
       break;
+      case 0:
+        piramideImg.setAttribute("src", "./assets/pagina3/p1.png")
+        break;
+      case 1:
+        piramideImg.setAttribute("src", "./assets/pagina3/p2.png")
+        break;
+      case 2:
+        piramideImg.setAttribute("src", "./assets/pagina3/p3.png")
+        break;
+        case 0:
+          piramideImg.setAttribute("src", "./assets/pagina3/p1.png")
+          break;
+        case 1:
+          piramideImg.setAttribute("src", "./assets/pagina3/p2.png")
+          break;
+        case 2:
+          piramideImg.setAttribute("src", "./assets/pagina3/p3.png")
+          break;
+          case 0:
+            piramideImg.setAttribute("src", "./assets/pagina3/p1.png")
+            break;
+          case 1:
+            piramideImg.setAttribute("src", "./assets/pagina3/p2.png")
+            break;
+          case 2:
+            piramideImg.setAttribute("src", "./assets/pagina3/p3.png")
+            break;
   }
 }
 

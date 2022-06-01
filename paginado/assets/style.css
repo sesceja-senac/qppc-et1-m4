@@ -279,6 +279,71 @@ h2 {
   color: #ffffff;
 }
 
+.linha-do-tempo {
+  width: 753px;
+  height: 1106px;
+  background-image: url(../assets/pagina4/pg4-linhadotempo-bg.png);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linha-do-tempo img {
+  position: absolute;
+  transition: 300ms;
+}
+
+.linha-do-tempo img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.linha-do-tempo img:nth-child(1) {
+  top: 62px;
+  left: 34px;
+}
+
+.linha-do-tempo img:nth-child(2) {
+  left: 315px;
+  top: 279px;
+}
+
+.linha-do-tempo img:nth-child(3) {
+  top: 420px;
+  left: 61px;
+}
+
+.linha-do-tempo img:nth-child(4) {
+  top: 600px;
+  left: 351px;
+}
+
+.linha-do-tempo img:nth-child(5) {
+  top: 770px;
+  left: 61px;
+}
+
+.modal-content.timeline h3,
+.modal-content.timeline h4,
+.modal-content.timeline p,
+.modal-content.timeline {
+  color: #00828b;
+}
+
+.citacao {
+  margin-left: 29%;
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.modal-fullscreen .icone.saiba-mais::before {
+  background-color: #fff;
+}
+
+.modal-fullscreen .caixa.icone {
+  border-color: #00828b;
+}
+
 @media only screen and (max-width: 750px) {
   .botao-modal-pg3---mobile {
     display: block;
@@ -308,6 +373,13 @@ h2 {
 
   .botao-modal-pg3 {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .linha-do-tempo {
+    transform: scale(0.5);
+    left: -25vw;
   }
 }
 
