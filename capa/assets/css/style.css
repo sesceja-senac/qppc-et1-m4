@@ -272,6 +272,14 @@ img {
   content: "Políticas públicas para a cultura";
 }
 
+.menu a:nth-child(5)::before {
+  white-space: pre;
+  content: "História das políticas públicas \A culturais no Brasil";
+}
+
+
+
+
 
 .menu a:hover::before {
   opacity: 0;
