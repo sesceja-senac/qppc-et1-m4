@@ -237,6 +237,7 @@ img {
   transition: 500ms;
   position: relative;
   background: linear-gradient(to right, #fe3f86, #be2747);
+  text-align: center;
 }
 
 .menu a::before {

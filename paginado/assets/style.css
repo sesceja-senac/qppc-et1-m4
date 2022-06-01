@@ -242,6 +242,8 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .btn-cinema {
@@ -252,6 +254,7 @@ h2 {
 
 .btn-cinema:hover {
   background-position: left top;
+  cursor: pointer;
 }
 
 .btn-cinema:nth-child(1) {
@@ -260,6 +263,20 @@ h2 {
 
 .btn-cinema:nth-child(2) {
   background-image: url(../assets/pagina3/pg3-Poster2.png);
+}
+
+
+.modal-content.dark {
+  background: linear-gradient(to right, #3d3d3d, #070707);
+}
+
+.modal-content.dark figcaption{
+  color: #ffffff;
+}
+
+
+.modal-content.dark p{
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 750px) {
