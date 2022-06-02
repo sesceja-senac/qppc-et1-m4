@@ -277,6 +277,11 @@ img {
   content: "História das políticas públicas \A culturais no Brasil";
 }
 
+.menu a:nth-child(6)::before {
+  white-space: pre;
+  content: "Ferramentas para fomento cultural";
+}
+
 
 
 
