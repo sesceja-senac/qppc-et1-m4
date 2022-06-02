@@ -407,6 +407,99 @@ h2 {
 }
 
 
+.modais-container {
+  width: 901px;
+  height: 598px;
+  background-image: url('../assets/pagina5/pg5-painel-bg.png');
+  position: relative;
+}
+
+.modais-container button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+}
+
+.modais-container #botao1 {
+  background-image: url('../assets/pagina5/pg5-painel-botao1.png');
+  height: 312px;
+  width: 300px;
+  background-position: 602px 10px;
+  top: 0;
+  left: 10px;
+  z-index: 2;
+}
+
+#botao1:hover {
+  background-position: 303px 10px;
+}
+
+.modais-container #botao2 {
+  background-image: url('../assets/pagina5/pg5-painel-botao2.png');
+  height: 565px;
+  width: 300px;
+  z-index: 1;
+  left: 100px;
+  background-position: 604px 5px;
+}
+
+#botao2:hover {
+  background-position: 304px 5px;
+}
+
+.modais-container #botao3 {
+  background-image: url('../assets/pagina5/pg5-painel-botao3.png');  
+  height: 301px;
+  width: 232px;
+  left: 330px;
+  z-index: 2;
+  background-position: -5px 5px;
+}
+
+#botao3:hover {
+  background-position: 245px 5px;
+}
+
+.modais-container #botao4 {
+  background-image: url('../assets/pagina5/pg5-painel-botao4.png');  
+  height: 259px;
+  width: 300px;
+  right: 20px;
+  top: 40px;
+  background-position: 0px 0px;
+  z-index: 2;
+}
+
+#botao4:hover {
+  background-position: 300px 0px;
+}
+
+.modais-container #botao5 {
+  background-image: url('../assets/pagina5/pg5-painel-botao5.png');  
+  height: 550px;
+  width: 363px;
+  z-index: 1;
+  right: 100px;
+}
+
+#botao5:hover {
+  background-position: 363px 0px;
+}
+
+figcaption {
+  margin-bottom: 15px;
+}
+
+.modal-header h2{
+  color: black;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
 @media only screen and (max-width: 750px) {
   .botao-modal-pg3---mobile {
     display: block;
