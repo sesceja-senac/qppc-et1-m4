@@ -23,6 +23,11 @@ h2 {
   margin-bottom: 40px;
 }
 
+.referencias p {
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
 .relembrando {
   background-image: url(../assets/pagina1/pg1-ilustracao-lembranca.png);
   background-repeat: no-repeat;
