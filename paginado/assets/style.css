@@ -499,6 +499,24 @@ p {
   margin-bottom: 30px;
 }
 
+.cabecalho {
+  background-color: #00828a;
+  display: block;
+}
+
+.cabecalho img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cabecalho_logos {
+  display: none;
+}
+
+
+.pagination {
+  flex-wrap: wrap;
+}
 
 @media only screen and (max-width: 750px) {
   .botao-modal-pg3---mobile {
@@ -551,9 +569,30 @@ p {
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  .cabecalho {
+    background-color: #00828a;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 70px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cabecalho__img {
+    display: none;
+  }
+  .cabecalho_logos {
+    display: inline-block;
+  }
+}
+
 
 @media only screen and (max-width: 1300px) {
   .bg-sesc.escuro {
     background-image: none;
   }
 }
+

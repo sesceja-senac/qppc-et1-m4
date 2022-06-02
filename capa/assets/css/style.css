@@ -299,11 +299,12 @@ img {
   content: "Referências";
 }
 
-
-
-
 .menu a:hover::before {
   opacity: 0;
+}
+
+.cabecalho {
+  background-color: #00828a;
 }
 
 @keyframes bg-animation {
