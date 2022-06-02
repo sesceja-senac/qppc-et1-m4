@@ -344,6 +344,35 @@ h2 {
   border-color: #00828b;
 }
 
+.icones-redondos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icones-redondos img {
+  transition: 300ms;
+}
+
+.icones-redondos img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.modal-grey {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+
+.caixa.escuro {
+  border-color: #00828b;
+}
+
+.caixa {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 @media only screen and (max-width: 750px) {
   .botao-modal-pg3---mobile {
     display: block;
