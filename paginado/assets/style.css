@@ -392,6 +392,21 @@ h2 {
   color: #00828b;
 }
 
+
+.video-tema {
+  background-image: url(../assets/pagina6e7/pg6-player-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding: 60px;
+}
+
+.youtube-pl {
+  max-width: 100%;
+
+}
+
+
 @media only screen and (max-width: 750px) {
   .botao-modal-pg3---mobile {
     display: block;
