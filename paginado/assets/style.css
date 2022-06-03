@@ -136,16 +136,6 @@ h2 {
 
 .piramide__next,
 .piramide__prev {
-  color: #00828b;
-  height: 35px;
-  width: 35px;
-  background-color: #fff;
-  border: 2px solid #00a7b3;
-  font-size: 18px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
 }
 
@@ -290,8 +280,8 @@ h2 {
 }
 
 .linha-do-tempo {
-  width: 753px;
-  height: 1106px;
+  width: 367px;
+  height: 553px;
   background-image: url(../assets/pagina4/pg4-linhadotempo-bg.png);
   position: relative;
   margin-left: auto;
@@ -309,28 +299,28 @@ h2 {
 }
 
 .linha-do-tempo img:nth-child(1) {
-  top: 62px;
-  left: 34px;
+  top: 21px;
+  left: 14px;
 }
 
 .linha-do-tempo img:nth-child(2) {
-  left: 315px;
-  top: 279px;
+  left: 183px;
+  top: 97px;
 }
 
 .linha-do-tempo img:nth-child(3) {
-  top: 420px;
-  left: 61px;
+  top: 227px;
+  left: 16px;
 }
 
 .linha-do-tempo img:nth-child(4) {
-  top: 600px;
-  left: 351px;
+  top: 278px;
+  left: 180px;
 }
 
 .linha-do-tempo img:nth-child(5) {
-  top: 770px;
-  left: 61px;
+  top: 400px;
+  left: 45px;
 }
 
 .modal-content.timeline h3,
@@ -343,11 +333,13 @@ h2 {
 .citacao {
   margin-left: 29%;
   font-size: 14px;
-  font-family: cursive;
+  border: 2px solid #00828a;
+  padding: 20px;
 }
 
 .modal-fullscreen .icone.saiba-mais::before {
   background-color: #fff;
+  background-image: url(../assets/pagina4/saiba-modal.png)
 }
 
 .modal-fullscreen .caixa.icone {
@@ -358,6 +350,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .icones-redondos img {
@@ -392,6 +385,10 @@ h2 {
   color: #00828b;
 }
 
+.ampliar {
+  display: none;
+}
+
 
 .video-tema {
   background-image: url(../assets/pagina6e7/pg6-player-bg.png);
@@ -405,7 +402,6 @@ h2 {
   max-width: 100%;
 
 }
-
 
 .modais-container {
   width: 901px;
@@ -518,7 +514,52 @@ p {
   flex-wrap: wrap;
 }
 
+.modal-fullscreen .modal-body {
+  background-image: url(../assets/pagina1/detalhe-modal.png);
+  background-repeat: no-repeat;
+  background-position: left 100px top;
+}
+
+.modal-header .btn-close {
+    background-color: #ff9700;
+    padding: 1rem 1em;
+    margin: -0.5rem -0.5rem -0.5rem auto;
+    border-radius: 100px;
+}
+
+.modal-deatlhe-laranja {
+  display: flex;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: flex-end;
+}
+
+.barra-laranja {
+  background-color: #ff9700;
+  height: 15px;
+  width: 30vw;
+}
+
+.show-mobi {
+  display: none;
+}
+
+.modal-content .icone.dica::before {
+  background-color: #e4e4e4;
+      width: 65px;
+    height: 95px;
+    background-image: url(../template/img/ico-dica.png)
+}
+
+
 @media only screen and (max-width: 750px) {
+  .show-mobi {
+    display: block;
+  }
+  .hide-mobi {
+    display: none;
+  }
   .botao-modal-pg3---mobile {
     display: block;
   }
@@ -550,10 +591,20 @@ p {
   }
 }
 
+.modal-body .icone.atencao::before {
+  background-color: #f6f4f4;
+  background-image: url(../template/img/ico-atencao.png);
+  width: 68px;
+  height: 98px;
+}
+
 @media only screen and (max-width: 820px) {
+  .ampliar {
+    display: block;
+  }
   .linha-do-tempo {
-    transform: scale(0.5);
-    left: -25vw;
+    transform: scale(0.8);
+    left: -5vw;
   }
 }
 
@@ -566,6 +617,21 @@ p {
   }
   .piramides-mobile {
     display: block;
+  }
+}
+
+
+
+@media only screen and (max-width: 850px) {
+  .btns-cinema {
+    width: auto;
+    max-width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    height: 816px;
+    background-color: #adadab;
+    border-radius: 40px;
+    background-image: none;
   }
 }
 
@@ -586,6 +652,12 @@ p {
   }
   .cabecalho_logos {
     display: inline-block;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .modal-fullscreen .modal-body {
+    background-image: none;
+
   }
 }
 
