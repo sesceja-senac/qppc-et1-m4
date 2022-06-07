@@ -64,9 +64,9 @@ img {
 }
 
 .titulo {
-  position: absolute;
   left: 0;
   top: 0;
+  position: fixed;
 }
 
 .vaso-bg {
@@ -403,6 +403,14 @@ img {
     transform: translate(0);
   }
 }
+
+@media screen and (max-width: 950px) {
+  .titulo {
+    position: absolute;
+  }
+}
+
+
 
 @media screen and (max-width: 1000px) {
   .menu {
