@@ -598,6 +598,48 @@ p {
   height: 98px;
 }
 
+.ui-paginacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui-paginacao .btn-sesc[disabled]{
+  background-color: #efefef;
+  border-color: #666;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.painel-abas .nav-link.active {
+  background-color: #fff;
+  color: #00828a;
+}
+
+.painel-abas .nav-link {
+  color: #fff;
+  background-color: #00828a;
+}
+
+.mobi-link {
+  pointer-events: none;
+}
+
+.modais-container-mobile {
+
+}
+
+.modais-container-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .mobi-link {
+    pointer-events:visible;
+  }
+}
+
 @media only screen and (max-width: 820px) {
   .ampliar {
     display: block;
@@ -635,7 +677,22 @@ p {
   }
 }
 
+@media only screen and (max-width: 950px) {
+  .flip-card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
+
+.modais-container-mobile {
+  display: block;
+}
+  .modais-container {
+    display: none;
+  }
   .cabecalho {
     background-color: #00828a;
     display: flex;

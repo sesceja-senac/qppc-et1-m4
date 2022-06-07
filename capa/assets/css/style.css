@@ -27,7 +27,7 @@ img {
   animation-timing-function: ease-in-out;
   animation-delay: 300ms;
   animation-fill-mode:backwards;
-  width: 33vw;
+  width: 28vw;
 }
 
 .arte-direita {
@@ -39,7 +39,7 @@ img {
   animation-timing-function: ease-in-out;
   animation-delay: 300ms;
   animation-fill-mode:backwards;
-  width: 35.3vw;
+  width: 30.3vw;
 }
 
 .capa-container {
@@ -55,7 +55,7 @@ img {
   position: fixed;
   left: 0;
   bottom: 0%;
-  width: 68.5vw;
+  width: 54.5vw;
   animation-name: mulher;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -71,22 +71,22 @@ img {
 
 .vaso-bg {
   position: fixed;
-  left: 36.3vw;
-  bottom: 5.6vw;
-  width: 30.5vw;
+  left: 28.9vw;
+  bottom: 4.4vw;
+  width: 24.5vw;
   animation-name: mulher;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
   animation-delay: 300ms;
-  animation-fill-mode:backwards;
+  animation-fill-mode: backwards;
 }
 
 .flores {
   width: 37.5vw;
   height: 39vw;
-  position: absolute;
-  left: 33.5vw;
-  bottom: 8vw;
+  position: fixed;
+  left: 23.5vw;
+  bottom: 7vw;
   animation-name: mulher;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -97,10 +97,11 @@ img {
 
 .flor {
   position: absolute;
+  transition: 300ms;
 }
 
 .flor-1 {
-  width: 10vw;
+  width: 8vw;
   bottom: 0vw;
   right: 0;
   animation-name: revela-flor-1;
@@ -111,7 +112,7 @@ img {
 }
 
 .flor-2 {
-  width: 10vw;
+  width: 8vw;
   bottom: 0vw;
   left: 13vw;
   animation-name: revela-flor-2;
@@ -122,7 +123,7 @@ img {
 } 
 
 .flor-3 {
-  width: 12vw;
+  width: 10vw;
   bottom: 0vw;
   left: 0vw;
   animation-name: revela-flor-3;
@@ -133,7 +134,7 @@ img {
 } 
 
 .flor-4 {
-  width: 14vw;
+  width: 12vw;
   bottom: -1vw;
   left: 24vw;
   animation-name: revela-flor-4;
@@ -144,7 +145,7 @@ img {
 }
 
 .flor-5 {
-  width: 14.634vw;
+  width: 12.634vw;
   bottom: -2vw;
   left: 13vw;
   animation-name: revela-flor-4;
@@ -155,7 +156,7 @@ img {
 }
 
 .flor-6 {
-  width: 14.634vw;
+  width: 12.634vw;
   bottom: -2vw;
   left: 2vw;
   animation-name: revela-flor-3;
@@ -166,7 +167,7 @@ img {
 }
 
 .flor-7 {
-  width: 14.634vw;
+  width: 12.634vw;
   bottom: -2vw;
   left: 22vw;
   animation-name: revela-flor-7;
@@ -177,7 +178,7 @@ img {
 }
 
 .flor-8 {
-  width: 9vw;
+  width: 7vw;
   bottom: -2vw;
   left: 11vw;
   animation-name: revela-flor-7;
@@ -188,7 +189,7 @@ img {
 }
 
 .flor-9 {
-  width: 13.33vw;
+  width: 11.33vw;
   bottom: -2vw;
   left: 3vw;
   animation-name: revela-flor-7;
@@ -207,7 +208,7 @@ img {
   top: 2vw;
   right: 2vw;
   background: linear-gradient(to bottom, #fff, #fff, #cccccc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -239,7 +240,7 @@ img {
   align-items: center;
   display: flex;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 15px;
   transition: 500ms;
   position: relative;
   background: linear-gradient(to right, #fe3f86, #be2747);
