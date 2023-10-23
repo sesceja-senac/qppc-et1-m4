@@ -170,15 +170,18 @@ footer a:visited {
   margin-left: -18%;
 }
 .lista2{
-  background: url('../assets/pagina1/bullet.png') left top no-repeat;
-  background-size: 8%;
+  background: url('../assets/pagina1/bullet.png') center top no-repeat;
+  background-size: 4%;
   list-style-type: none;
-  padding-left: 27%;
+  padding-left: 79%;
   position: relative;
+  margin-left: -50%;
+ 
 }
 .lista{
   display: flex;
 padding-left: 3%;
+margin-right: 10%;
 
  
 }
@@ -842,10 +845,97 @@ p {
   display: none;
 }
 
-@media only screen and (max-width: 750px) {
-  .mobi-link {
-    pointer-events:visible;
+
+
+
+
+
+@media only screen and (max-width: 1440px) {
+.mirela1 {
+  left: 7%;
+  position: absolute;
+}}
+
+@media only screen and (max-width: 1400px) {
+.mirela1 {
+  left: 6%;
+  position: absolute;
+}
+}
+
+@media only screen and (max-width: 1300px) {
+  .bg-sesc.escuro {
+    background-image: none;
   }
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .modal-fullscreen .modal-body {
+    background-image: none;
+
+  }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+  .modais-container-mobile {
+    display: block;
+  }
+    .modais-container {
+      display: none;
+    }
+    .cabecalho {
+      background-color: #00828a;
+      display: flex;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      height: 70px;
+      justify-content: space-between;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .cabecalho__img {
+      display: none;
+    }
+    .cabecalho_logos {
+      display: inline-block;
+    }
+  }
+
+
+@media only screen and (max-width: 950px) {
+  .flip-card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .btns-cinema {
+    width: auto;
+    max-width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    height: 816px;
+    background-color: #adadab;
+    border-radius: 40px;
+    background-image: none;
+  }
+}
+
+@media screen and (min-width: 821px) {
+  .tablet1{display: none;}
+}
+@media screen and (max-width: 820px) {
+  .desk1{display: none;}
+  .mirela1{width: 47%;
+  left: 1%;}
+  
 }
 
 @media only screen and (max-width: 820px) {
@@ -870,66 +960,18 @@ p {
   }
 }
 
-
-
-@media only screen and (max-width: 850px) {
-  .btns-cinema {
-    width: auto;
-    max-width: 100%;
-    flex-direction: column;
-    overflow: hidden;
-    height: 816px;
-    background-color: #adadab;
-    border-radius: 40px;
-    background-image: none;
+@media only screen and (max-width: 768px) {
+  .margin-p{margin-top: 0px;}
+}
+@media only screen and (max-width: 750px) {
+  .mobi-link {
+    pointer-events:visible;
   }
 }
 
-@media only screen and (max-width: 950px) {
-  .flip-card {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+@media screen and (max-width: 480px) {
+
+.mirela1{display: none;}
+
+
 }
-
-@media only screen and (max-width: 1000px) {
-
-.modais-container-mobile {
-  display: block;
-}
-  .modais-container {
-    display: none;
-  }
-  .cabecalho {
-    background-color: #00828a;
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 70px;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .cabecalho__img {
-    display: none;
-  }
-  .cabecalho_logos {
-    display: inline-block;
-  }
-}
-@media only screen and (max-width: 1280px) {
-  .modal-fullscreen .modal-body {
-    background-image: none;
-
-  }
-}
-
-
-@media only screen and (max-width: 1300px) {
-  .bg-sesc.escuro {
-    background-image: none;
-  }
-}
-
