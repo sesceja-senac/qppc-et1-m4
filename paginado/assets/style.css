@@ -182,15 +182,16 @@ footer a:visited {
   display: flex;
 padding-left: 3%;
 margin-right: 10%;
-
- 
 }
 
+body{
+  background: url('../assets/pagina1/background.jpg');
+}
 
-
-
-
-
+.pagina1{
+  background: url('../assets/pagina1/img_2.png') no-repeat right bottom;
+}
+.pagina1 p, li{color: #fff;}
 
 
 
@@ -935,7 +936,10 @@ p {
   .desk1{display: none;}
   .mirela1{width: 47%;
   left: 1%;}
-  
+  body .container{
+    background: url('../assets/pagina1/background.jpg');
+  }
+  .pagina1{background: unset;}
 }
 
 @media only screen and (max-width: 820px) {

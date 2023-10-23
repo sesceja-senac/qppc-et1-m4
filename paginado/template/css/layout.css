@@ -28,13 +28,11 @@ a.btn-sesc{
     max-width: 928px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: white;
-
 }
-.escuro .container {
+/* .escuro .container {
     background: none; 
     color: white;   
-}
+} */
 .bloco {
     width: 100%;
     
@@ -173,7 +171,7 @@ a.btn-sesc{
     background-repeat: repeat-y; 
     background-attachment: fixed;
 }
-.bg-sesc.escuro{
+/* .bg-sesc.escuro{
     background-color: #004f53;
     background-image: url(../../template/img/bg.png
     ); 
@@ -181,7 +179,7 @@ a.btn-sesc{
     background-size: 100% auto;
     background-position: top left;
     background-repeat: no-repeat;
-}
+} */
 header.sesc{
     background-image: url(../img/cabecalho/cabecalho.png);
     background-position: center center;   
@@ -752,11 +750,7 @@ h3, .subtitulo{
         height: 60px;
     }
 }
-@media screen and (max-width:991px) {
-    .bg-sesc{
-        background: white;
-    }
-}
+
 
 
 /*large pra cima*/
