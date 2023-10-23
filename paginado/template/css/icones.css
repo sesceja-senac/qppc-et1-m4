@@ -28,9 +28,17 @@
 .icone.saiba-mais::before{
     background-image: url(../img/ico-saiba-b.png);
 }
-
+.icone.importante::before{
+    background-image: url(../img/ico_importante2.png);
+    width: 135px;
+    height: 120px;
+    left: -63px;
+}
 .icone.atencao::before{
-    background-image: url(../img/ico-atencao-b.png);
+    background-image: url(../img/ico_atencao2.png);
+    width: 127px;
+    height: 119px;
+    left: -55px;
 }
 
 @media print{

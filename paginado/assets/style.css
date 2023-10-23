@@ -17,6 +17,16 @@ footer a:visited {
   background-color: #c4c4c4;
 }
 
+.tooltip-link{    
+  text-decoration: underline;
+  text-decoration-color: blue;}
+.bt-tooltip {
+  border: none;
+  border-bottom: 2px dashed;
+  background: unset;
+  padding: 0;
+  
+}
 
 /*menu*/
 .dropdown-menu{
@@ -146,9 +156,32 @@ footer a:visited {
 
 /*fim do menu*/
 
+.mirela1{
+ left: 17%;
+ position: absolute;
+}
 
+.lista1{
+  background: url('../assets/pagina1/bullet.png') center top no-repeat;
+  background-size: 5%;
+  list-style-type: none;
+  padding-left: 27%;
+  position: relative;
+  margin-left: -18%;
+}
+.lista2{
+  background: url('../assets/pagina1/bullet.png') left top no-repeat;
+  background-size: 8%;
+  list-style-type: none;
+  padding-left: 27%;
+  position: relative;
+}
+.lista{
+  display: flex;
+padding-left: 3%;
 
-
+ 
+}
 
 
 
