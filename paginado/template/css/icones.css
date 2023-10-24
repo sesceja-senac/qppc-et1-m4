@@ -22,7 +22,10 @@
     background-image: url(../img/ico-pergunta-b.png);
 }
 .icone.refletir::before{
-    background-image: url(../img/ico-refletir-b.png);
+    background-image: url(../img/ico_refletir2.png);
+    width: 114px;
+    height: 126px;
+    left: -35px;   
 }
 
 .icone.saiba-mais::before{

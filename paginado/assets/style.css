@@ -198,6 +198,7 @@ body{
 }
 .pagina1 p, li{color: #fff;}
 .pagina2 p, li{color: #fff;}
+.pagina3 p, h4{color: #fff;}
 .pagina1 h2{ font-family:'Englebert';
 color:#c78023;}
 .pagina2 h2{ font-family:'Englebert';}
@@ -252,7 +253,10 @@ color:#c78023;}
 background-attachment: fixed;
 background-size: contain;}
 
-
+.citacao-normal {
+  border: 2px solid #00828a;
+  padding: 20px;
+}
 
 
 
