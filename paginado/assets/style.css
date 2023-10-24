@@ -1,3 +1,8 @@
+@font-face {
+  font-family:'Englebert';
+  src: url('../../paginado/template/font/Englebert/Englebert-Regular.ttf');
+}
+
 figure {
   text-align: center;
 }
@@ -192,16 +197,60 @@ body{
   background: url('../assets/pagina1/img_2.png') no-repeat right bottom;
 }
 .pagina1 p, li{color: #fff;}
+.pagina2 p, li{color: #fff;}
+.pagina1 h2{ font-family:'Englebert';
+color:#c78023;}
+.pagina2 h2{ font-family:'Englebert';}
 
 
+.podcast-container {
+  width: 862px;
+  height: 269px;
+  background-image: url('../assets/pagina2/podcast.png');
+  margin: 50px auto 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 
+.sesc-audio-player {
+  width: 200px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-left: -35px;
+ 
+}
 
+.sesc-audio-player .botoes {
+  text-align: center;
+}
 
+.sesc-audio-player input[type="range"] {
+  border-radius: 5px;
+}
 
+.sesc-audio-player .timestamp {
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-left: unset;
+}
 
+.icone-transcricao {
+  height: 50px;
+  width: auto;
+}
+.sesc-audio-player  input[type=range] {
+  -webkit-appearance: none;
+  margin: 20px 0;
+  width: 100%;
+}
 
+.painel1 p{color: #000 !important; }
 
-
+.pagina2{background: url('../assets/pagina2/lateral_1.png') left no-repeat, url('../assets/pagina2/lateral_2.png') right no-repeat;
+background-attachment: fixed;
+background-size: contain;}
 
 
 
@@ -263,10 +312,6 @@ h2 {
   padding-bottom: 40px;
 }
 
-.pagina {
-  padding-bottom: 40px;
-}
-
 .right {
   text-align: right;
 }
@@ -286,39 +331,6 @@ h2 {
 
 .mt-40 {
   margin-top: 40px;
-}
-
-.sesc-audio-player {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  background-color: transparent;
-  background-image: url(../assets/pagina2/pg2-podcast-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.sesc-audio-player input[type=range] {
-  margin: 0;
-  background-color: #ff9700;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 78px;
-  width: 240px;
-  max-width: 100%;
-}
-
-.audio-ui-btn:hover {
-  cursor: pointer;
-  opacity: 0.8;
-  transform: scale(1.05);
-}
-
-.sesc-audio-player img {
-  transform: translate(0.5);
 }
 
 .ui-tooltip {
@@ -747,11 +759,6 @@ p {
   justify-content: flex-end;
 }
 
-.barra-laranja {
-  background-color: #ff9700;
-  height: 15px;
-  width: 30vw;
-}
 
 .show-mobi {
   display: none;
@@ -784,12 +791,7 @@ p {
   .relembrando--mobile {
     display: block;
   }
-  .sesc-audio-player input[type=range] {
-    height: 50px;
-  }
-  .sesc-audio-player {
-    gap: 5px;
-  }
+
   .flip-card {
     background-color: transparent;
     width: 100%;
@@ -848,7 +850,9 @@ p {
 
 
 
-
+@media screen and (max-width: 1440px) {
+  .pagina2{background: unset;}
+}
 
 
 @media only screen and (max-width: 1440px) {
@@ -962,20 +966,55 @@ p {
   .piramides-mobile {
     display: block;
   }
+  .podcast-container{
+    transform: scale(0.9);
+    margin-left: -40px;
+}
 }
 
 @media only screen and (max-width: 768px) {
   .margin-p{margin-top: 0px;}
+  .podcast-container{
+    transform: scale(0.9);
+    margin-left: -73px;
 }
+
+}
+
 @media only screen and (max-width: 750px) {
   .mobi-link {
     pointer-events:visible;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .podcast-container {
+    transform: scale(1);
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}}
+
 @media screen and (max-width: 480px) {
 
 .mirela1{display: none;}
+.sesc-audio-player {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
 
+}
 
+.sesc-audio-player {
+  background-color: #00838D;
+  color: white;
+  padding: 8px 20px;
+  line-height: 0;
+  margin-bottom: 6px;
+}
+.camera{display: none;}
 }

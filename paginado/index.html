@@ -158,22 +158,30 @@
 					<!-- /lista acessivel -->
 
 					<p>Chegou a hora de levantar a âncora! </p>
+					<br>
 				</div>
 			</div>
 			<!-- /pagina 1 -->
 
 			<!-- pagina 2-->
-			<div class="pagina">
+			<div class="pagina pagina2">
 				<div class="container">
-					<div class="header-pagina-2">
-						<h2 class="right">Fomento à cultura – uma visão geral</h2>
+					<div class="row">
+						<div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
+						<div class="header-pagina-2">
+							<h2>Fomento à cultura – uma visão geral</h2>
+						</div>
+
+						<p>O <em>rapper</em> carioca Marcelo D2 lançou, em 2018, o disco “Amar é para os fortes”. Nesse
+							disco, há a música “Resistência cultural", gravada com a participação do músico e
+							ex-ministro da
+							cultura Gilberto Gil. </p>
+						<p>Veja o refrão dessa música a seguir: </p>
 					</div>
-
-					<p>O <em>rapper</em> carioca Marcelo D2 lançou, em 2018, o disco “Amar é para os fortes”. Nesse
-						disco, há a música “Resistência cultural", gravada com a participação do músico e ex-ministro da
-						cultura Gilberto Gil. </p>
-					<p>Veja o refrão dessa música a seguir: </p>
-
+					<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
+						<img src="../paginado/assets/pagina2/camera.png" class="img-fluid camera">
+					</div>
+					</div>
 					<figure aria-hidden="true">
 						<img src="./assets/pagina2/pg2-musica.png" alt="">
 					</figure>
@@ -351,27 +359,36 @@
 					<p class="center mt-40 no-print">Ouça o <em>podcast</em> ou clique no ícone de transcrição para
 						lê-la. </p>
 
-					<div class="sesc-audio-player no-print" aria-hidden="true">
-						<audio>
-							<source src="./assets/pagina2/audio.mp3" type="audio/mpeg">
-						</audio>
-						<img class="podcast-logo" src="./assets/pagina2/pg2-podcast.png" alt="">
-						<img title="Tocar" src="./assets/pagina2/pg2-podcast-play.png" class="btn-play audio-ui-btn">
-						<img title="Pause" src="./assets/pagina2/pg2-podcast-pause.png" class="btn-pause audio-ui-btn">
-						<input type="range" value="0" max="100" step="any">
-						<img title="Transcrição" src="./assets/pagina2/pg2-podcast-transcricao.png"
-							data-bs-toggle="modal" data-bs-target="#podcast1" class="btn-transcricao audio-ui-btn">
+					<div class="podcast-container no-print">
+						<div class="sesc-audio-player no-print">
+							<audio>
+								<source src=".mp3" type="audio/mpeg">
+							</audio>
+							<div class="row">
+								<div class="botoes">
+									<button title="Tocar" class="btn-play btn-player"></button>
+									<button title="Pause" class="btn-pause btn-player"></button>
+									<button title="Transcrição" data-bs-toggle="modal"
+										data-bs-target="#modal-transcricao-audio"
+										class="btn-transcricao btn-player"></button>
+									<div class="timestamp">00:00/00:00</div>
+								</div>
+								<div class="barra">
+									<input type="range" value="0" max="100" step="any" class="barra-verde">
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<!-- Modal , diagramar proximo ao conteudo para o print-->
-					<div class="modal fade" id="podcast1" tabindex="-1" role="dialog"
-						aria-labelledby="transcricao-title" aria-hidden="false">
-						<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-							<div class="modal-content">
+					<div class="modal fade" id="modal-transcricao-audio" tabindex="-1"
+						aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content no-print">
 								<div class="modal-header">
-									<h5 class="modal-title" id="transcricao-title">Transcrição</h5>
+									<h5 class="modal-title" id="exampleModalLabel">Transcrição</h5>
 									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-label="Close"><i class="fa fa-times"></i></button>
+										aria-label="Close">x</button>
 								</div>
 								<div class="modal-body">
 									<p>Olá, aluno! Seja muito bem-vindo! </p>
@@ -557,7 +574,7 @@
 						recursos para execução dos projetos é uma constante, sendo parte do dia a dia do produtor. Para
 						isso, quem trabalha com produção cultural deve estar atento a leis, editais, linhas de crédito e
 						toda sorte de mecanismos que possam auxiliar financeiramente seu projeto. </p>
-					<div class="caixa icone atencao">
+					<div class="caixa icone importante">
 						<p>É importante destacar que recursos podem vir de fontes diferentes e, em alguns casos, essas
 							fontes podem se complementar. Podem ser recursos da iniciativa privada ou pública ou, ainda,
 							de ambas as formas. </p>
@@ -578,7 +595,7 @@
 							</li>
 						</ul>
 						<!-- Tab panes -->
-						<div class="tab-content">
+						<div class="tab-content painel1">
 							<!-- /tab1 -->
 							<div class="tab-pane active" id="tab01" role="tabpanel" aria-labelledby="tab01-tab">
 								<div class="row">
@@ -715,6 +732,7 @@
 							cultural, particularmente, utilizando recursos públicos (como linhas de crédito ou fundos de
 							cultura), segue determinações das políticas públicas para cultura. </p>
 					</div>
+					<br>
 				</div>
 			</div>
 			<!-- /pagina 2-->
