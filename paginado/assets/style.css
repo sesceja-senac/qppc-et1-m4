@@ -257,7 +257,8 @@ background-size: contain;}
   border: 2px solid #00828a;
   padding: 20px;
 }
-
+.espera{background-color: #666;
+width: 70%;}
 
 
 
@@ -810,10 +811,11 @@ p {
 }
 
 .modal-body .icone.atencao::before {
-  background-color: #f6f4f4;
-  background-image: url(../template/img/ico-atencao.png);
-  width: 68px;
-  height: 98px;
+  background-color: transparent;
+  background-image: url(../template/img/ico_atencao2.png);
+  width: 127px;
+  height: 119px;
+  left: -60px;
 }
 
 .ui-paginacao {
