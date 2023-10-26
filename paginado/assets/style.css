@@ -260,6 +260,14 @@ background-size: contain;}
 .espera{background-color: #666;
 width: 70%;}
 
+.cor-verde{color: #00828b;;}
+
+
+
+
+
+
+
 
 
 
@@ -434,7 +442,8 @@ h2 {
 
 .modal-body h2,
 .modal-body p,
-.modal-body figcaption {
+.modal-body figcaption,
+.modal-body h5 {
   color: #00828b;
 }
 
@@ -610,7 +619,7 @@ h2 {
 }
 
 .modal-content.modal-grey ol li,
-.modal-content.modal-grey ul li  {
+.modal-content.modal-grey ul li {
   color: #00828b;
 }
 
