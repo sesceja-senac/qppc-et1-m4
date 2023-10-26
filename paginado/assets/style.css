@@ -189,21 +189,20 @@ padding-left: 3%;
 margin-right: 10%;
 }
 
-body{
+/* body{
   background: url('../assets/pagina1/background.jpg');
-}
+} */
 
 .pagina1{
   background: url('../assets/pagina1/img_2.png') no-repeat right bottom;
 }
 .pagina1 p, li{color: #fff;}
 .pagina2 p, li{color: #fff;}
-.pagina3 p, h4{color: #fff;}
 .pagina1 h2{ font-family:'Englebert';
 color:#c78023;}
 .pagina2 h2{ font-family:'Englebert';}
-
-
+.pagina3 h2{ font-family:'Englebert';}
+.pagina3 .bloco1{color: #000;}
 .podcast-container {
   width: 862px;
   height: 269px;
@@ -249,9 +248,9 @@ color:#c78023;}
 
 .painel1 p{color: #000 !important; }
 
-.pagina2{background: url('../assets/pagina2/lateral_1.png') left no-repeat, url('../assets/pagina2/lateral_2.png') right no-repeat;
+/* .pagina2{background: url('../assets/pagina2/lateral_1.png') left no-repeat, url('../assets/pagina2/lateral_2.png') right no-repeat;
 background-attachment: fixed;
-background-size: contain;}
+background-size: contain;} */
 
 .citacao-normal {
   border: 2px solid #00828a;
@@ -261,9 +260,21 @@ background-size: contain;}
 width: 70%;}
 
 .cor-verde{color: #00828b;;}
-
-
-
+.cartaz1{max-width: 130% !important;}
+.pg2-bg_esq1 {
+  width: 19%;
+  margin-left: -23%;
+  position: fixed;
+  z-index: -1;
+  margin-top: -11%;
+}
+.pg2-bg_dir1{
+  width: 17%;
+  margin-top: -12%;
+  right: 5%;
+  position: fixed;
+  z-index: -1;
+}
 
 
 
@@ -866,7 +877,7 @@ p {
 
 
 @media screen and (max-width: 1440px) {
-  .pagina2{background: unset;}
+  .pg2-bg_dir1, .pg2-bg_esq1{display: none;}
 }
 
 
@@ -874,13 +885,16 @@ p {
 .mirela1 {
   left: 7%;
   position: absolute;
-}}
+}
+.pg2-bg_dir1, .pg2-bg_esq1{display: none;}
+}
 
 @media only screen and (max-width: 1400px) {
 .mirela1 {
   left: 6%;
   position: absolute;
 }
+.pg2-bg_dir1, .pg2-bg_esq1{display: none;}
 }
 
 @media only screen and (max-width: 1300px) {
