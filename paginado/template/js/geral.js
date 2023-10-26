@@ -42,3 +42,9 @@ $("#navbarScrollingDropdown span").html(
       .getElementById("titulo-header")
       .setAttribute("style", "color:#fff");
   }
+else if (pg_number == 7) {
+  document.body.style.backgroundImage = "url('images/bg_pg5.jpg')";
+} else if (pg_number == 8) {
+  document
+  document.body.style.backgroundImage = "url('assets/pagina6e7/refs.jpg')";
+}

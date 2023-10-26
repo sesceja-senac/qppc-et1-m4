@@ -248,9 +248,7 @@ color:#c78023;}
 
 .painel1 p{color: #000 !important; }
 
-/* .pagina2{background: url('../assets/pagina2/lateral_1.png') left no-repeat, url('../assets/pagina2/lateral_2.png') right no-repeat;
-background-attachment: fixed;
-background-size: contain;} */
+
 
 .citacao-normal {
   border: 2px solid #00828a;
@@ -276,9 +274,13 @@ width: 70%;}
   z-index: -1;
 }
 
-
-
-
+.bloco-claro{
+  background:url("../assets/pagina3/background_claro.png");
+}
+.bloco-escuro{background: url('../assets/pagina3/background.jpg');}
+.pagina8 .container{
+background-color:  #fff !important;
+}
 
 
 
