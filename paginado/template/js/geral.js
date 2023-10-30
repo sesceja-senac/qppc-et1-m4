@@ -33,11 +33,9 @@ $("#navbarScrollingDropdown span").html(
   } else if (pg_number == 4) {
     document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')";
   } else if (pg_number == 5) {
-    document.body.style.backgroundImage = "url('images/bg_pg5.jpg')";
+    document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')";
   } else if (pg_number == 6) {
-    document
-      .getElementById("titulo-header")
-      .setAttribute("style", "color:#fff");
+    document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')";
   }
 else if (pg_number == 7) {
   document.body.style.backgroundImage = "url('images/bg_pg5.jpg')";
