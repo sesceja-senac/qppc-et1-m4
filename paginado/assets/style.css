@@ -173,15 +173,28 @@ footer a:visited {
   padding-left: 27%;
   position: relative;
   margin-left: -18%;
+  font-size: 20px;
+  margin-right: 6%;
 }
 .lista2{
   background: url('../assets/pagina1/bullet.png') center top no-repeat;
   background-size: 4%;
   list-style-type: none;
-  padding-left: 79%;
+  padding-left: 84%;
   position: relative;
-  margin-left: -50%;
- 
+  margin-left: -72%;
+  font-size: 20px;
+  margin-right: 7%;
+}
+.lista3{
+  background: url('../assets/pagina1/bullet.png') center top no-repeat;
+  background-size: 4%;
+  list-style-type: none;
+  padding-left: 84%;
+  position: relative;
+  margin-left: -72%;
+  font-size: 20px;
+  margin-right: 8%;
 }
 .lista{
   display: flex;
@@ -210,8 +223,8 @@ color:#c78023;}
 .pagina6 h2{ font-family:'Englebert';}
 .pagina6 p{color: #fff;}
 .podcast-container {
-  width: 862px;
-  height: 269px;
+  width: 854px;
+  height: 301px;
   background-image: url('../assets/pagina2/podcast.png');
   margin: 50px auto 30px auto;
   display: flex;
@@ -359,9 +372,10 @@ margin: auto;
   position: absolute;
 }
 
+.espacamento{padding-top: 15%;}
 
-
-
+.marca-texto{background-color: #fcf081;
+width: 36%;}
 
 
 
@@ -943,6 +957,8 @@ p {
 
 @media screen and (min-width: 821px) {
   .tablet1{display: none;}
+  .smartphone1{display: none;}
+  .smartphone2{display: none;}
   .tablet2{display: none;}
   .pg4-bg_cima{display: none;}
   .pg4-bg_abaixo{display: none;}
@@ -955,6 +971,13 @@ p {
   .pagina1{background: unset;}
   .pg4-bg_esq1, .pg4-bg_dir1 {display: none;}
 
+}
+
+@media screen and (min-width: 700px) and (max-width:850px){
+  .desk1{display: none;}
+  .smartphone1{display: none;}
+  .desk2{display: none;}
+  .smartphone2{display: none;}
 }
 
 @media only screen and (max-width: 820px) {
@@ -981,6 +1004,16 @@ p {
 .moedas2 {
   margin-top: -22%;
 }
+.lista1 {
+  background: url(../assets/pagina1/bullet.png) center top no-repeat;
+  background-size: 5%;
+  list-style-type: none;
+  padding-left: 31%;
+  position: relative;
+  margin-left: -18%;
+  font-size: 20px;
+  margin-right: 6%;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -1006,6 +1039,26 @@ p {
 }
 .moedas2 {
   margin-top: -16%;
+}
+.lista1 {
+  background: url(../assets/pagina1/bullet.png) center center no-repeat;
+  background-size: 5%;
+  list-style-type: none;
+  padding-left: 35%;
+  position: relative;
+  margin-left: -22%;
+  font-size: 20px;
+  margin-right: 8%;
+}
+.lista2 {
+  background: url(../assets/pagina1/bullet.png) center top no-repeat;
+  background-size: 4%;
+  list-style-type: none;
+  padding-left: 84%;
+  position: relative;
+  margin-left: -72%;
+  font-size: 20px;
+  margin-right: 7%;
 }
 }
 
@@ -1060,7 +1113,7 @@ p {
 
 @media screen and (max-width: 480px) {
 
-.mirela1{display: none;}
+
 .sesc-audio-player {
   background-color: transparent;
   justify-content: center;
@@ -1077,8 +1130,41 @@ p {
   margin-bottom: 6px;
 }
 .camera{display: none;}
-.cartaz1{display: none;}
-.cartaz2{display: none;}
 .moedas{display: none;}
 .moedas2{display: none;}
+.desk1, .tablet1 {display: none;}
+.desk2, .tablet2{display: none;}
+.lista1 {
+  background: url(../assets/pagina1/bullet.png) center center no-repeat;
+  background-size: 13%;
+  list-style-type: none;
+  padding-left: 83%;
+  position: relative;
+  margin-left: -55%;
+  font-size: 20px;
+  margin-right: 14%;
+}
+
+.lista2 {
+  background: url(../assets/pagina1/bullet.png) center top no-repeat;
+  background-size: 10%;
+  list-style-type: none;
+  padding-left: 118%;
+  position: relative;
+  margin-left: -113%;
+  font-size: 20px;
+  margin-right: -8%;
+}
+
+.lista3 {
+  background: url(../assets/pagina1/bullet.png) center top no-repeat;
+  background-size: 10%;
+  list-style-type: none;
+  padding-left: 116%;
+  position: relative;
+  margin-left: -109%;
+  font-size: 20px;
+  margin-right: -3%;
+}
+
 }
