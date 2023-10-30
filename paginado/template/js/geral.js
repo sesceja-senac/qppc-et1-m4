@@ -31,10 +31,7 @@ $("#navbarScrollingDropdown span").html(
   } else if (pg_number == 3) {
     document.body.style.backgroundImage = "url('images/bg_pg3.jpg')";
   } else if (pg_number == 4) {
-    document.body.style.backgroundImage = "url('images/bg_pg4.jpg')";
-    document
-      .getElementById("titulo-header")
-      .setAttribute("style", "color:#fff");
+    document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')";
   } else if (pg_number == 5) {
     document.body.style.backgroundImage = "url('images/bg_pg5.jpg')";
   } else if (pg_number == 6) {

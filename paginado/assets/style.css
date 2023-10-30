@@ -202,6 +202,8 @@ margin-right: 10%;
 color:#c78023;}
 .pagina2 h2{ font-family:'Englebert';}
 .pagina3 h2{ font-family:'Englebert';}
+.pagina4 h2{ font-family:'Englebert';}
+.pagina4 p{color: #fff;}
 .pagina3 .bloco1{color: #000;}
 .podcast-container {
   width: 862px;
@@ -255,7 +257,9 @@ color:#c78023;}
   padding: 20px;
 }
 .espera{background-color: #666;
-width: 70%;}
+width: 300px;
+height: 500px;
+margin: auto;}
 
 .cor-verde{color: #00828b;;}
 .cartaz1{max-width: 130% !important;}
@@ -285,8 +289,6 @@ padding-top: 100px;
 padding-bottom: 130px;}
 .pagina3 .bloco4 .container{margin-bottom: -120px;
 padding-bottom: 150px;}
-
-
 .pagina8 .container{
 background-color:  #fff !important;
 }
@@ -307,11 +309,43 @@ background-position: center;
 background-repeat: no-repeat;
 margin: auto;
 }
+.pg4-bg_esq1 {
+  width: 11%;
+  margin-left: -23%;
+  position: fixed;
+  z-index: -1;
+  margin-top: -7%;
+}
+.pg4-bg_dir1{
+  width: 11%;
+  margin-top: -7%;
+  right: 5%;
+  position: fixed;
+  z-index: -1;
+}
 
+.pg3-bg_1{
+  margin-top: 3%;
+  margin-left: -23%;
+  position: absolute;
+}
 
-
-
-
+.pg3-bg_2
+{
+  margin-top: 33%;
+  right: 3%;
+  position: absolute;
+}
+.pg3-bg_3{
+  margin-top: 75%;
+  margin-left: -23%;
+  position: absolute;
+}
+.pg3-bg_4{
+  margin-top: 150%;
+  right: 3%;
+  position: absolute;
+}
 
 
 
