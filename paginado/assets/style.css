@@ -395,11 +395,6 @@ width: 36%;}
   position: absolute;
 }
 
-
-
-
-
-
 figure img {
   max-width: 100%;
 }
@@ -426,14 +421,6 @@ h2 {
   word-wrap: break-word;
 }
 
-.relembrando {
-  background-image: url(../assets/pagina1/pg1-ilustracao-lembranca.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 600px;
-  margin-top: 40px;
-  background-size: 100%;
-}
 
 .relembrando__p {
   margin-top: 249px;
@@ -530,12 +517,6 @@ h2 {
   color: #00828b;
 }
 
-
-
-
-
-
-
 .btns-cinema {
   width: 800px;
   height: 520px;
@@ -576,12 +557,9 @@ h2 {
   color: #ffffff;
 }
 
-
 .modal-content.dark p{
   color: #ffffff;
 }
-
-
 
 .modal-content.timeline h3,
 .modal-content.timeline h4,
@@ -621,7 +599,6 @@ h2 {
 .icones-redondos img:hover {
   transform: scale(1.05);
   cursor: pointer;
-
 }
 
 .modal-grey {
@@ -646,11 +623,9 @@ h2 {
 .modal-content.modal-grey ul li {
   color: #00828b;
 }
-
 .ampliar {
   display: none;
 }
-
 
 .video-tema {
   background-image: url(../assets/pagina6e7/pg6-player-bg.png);
@@ -713,13 +688,11 @@ h2 {
   top: 35%;
   left: 15%;
   z-index: 2;
-
 }
 
 #botao3:hover {
   background-image: url('../assets/pagina6e7/painel_bt_3_hover.png');
 }
-
 
 .modais-container #botao4 {
   background-image: url('../assets/pagina6e7/painel_bt_4.png');  
@@ -774,7 +747,6 @@ p {
   display: none;
 }
 
-
 .pagination {
   flex-wrap: wrap;
 }
@@ -800,7 +772,6 @@ p {
   justify-content: flex-end;
 }
 
-
 .show-mobi {
   display: none;
 }
@@ -811,8 +782,6 @@ p {
     height: 95px;
     background-image: url(../template/img/ico-dica.png)
 }
-
-
 
 .modal-body .icone.atencao::before {
   background-color: transparent;
@@ -857,8 +826,6 @@ p {
 .modais-container-mobile {
   display: none;
 }
-
-
 
 @media screen and (max-width: 1440px) {
   .pg2-bg_dir1,
@@ -918,7 +885,6 @@ p {
   }
 }
 
-
 @media only screen and (max-width: 1000px) {
 
   .modais-container-mobile {
@@ -945,7 +911,6 @@ p {
       display: inline-block;
     }
   }
-
 
 @media only screen and (max-width: 950px) {
   .flip-card {
