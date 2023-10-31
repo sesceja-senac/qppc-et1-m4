@@ -3,7 +3,8 @@
  all: unset;
 }
 .pagina p, .pagina li, .pagina a{
-  font-family: 'Libre Franklin Regular'
+  font-family: 'Libre Franklin Regular';
+  color:#000 !important;
 }
 
 /* SUPER RESET */
@@ -13,6 +14,7 @@
 }
 
 /* VALORES DEFAULT DE TUDO*/
+
 
 
 

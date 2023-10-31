@@ -65,8 +65,18 @@ img {
 transform: scale(1.1);
 }
 
-
-
+.logo
+{margin-top:2%;
+  width:7%;
+  position: absolute;
+  right: 3%;
+}
+.titulo2{
+  bottom:2%;
+  width:20%;
+  position: absolute;
+  right: 3%;
+}
 
 
 
@@ -265,7 +275,7 @@ margin-top: 2%;}
   left: 37%;}
 
 .titulo2{
-  left: 32%;
+  left: 33%;
   top: 94%;
   position: fixed;
   width: 80%;
@@ -332,6 +342,12 @@ margin-top: 2%;}
   width: 25%;
   left: -9%;
   top: -5%;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 480px;
+  padding-top: 10px;
 }
 }
 @media only screen and (max-width: 375px) {
