@@ -1,13 +1,15 @@
- $('.backdrop').hide()
-//localStorage.clear();
-if(localStorage.getItem('video-intro')!=='true'){    
-    $('.backdrop').fadeIn()
-}
-$('.btn-video').click(function(){
-    $('.backdrop').fadeIn()
-})
-$('.fechar').click(function(){
-    $('.backdrop').fadeOut()
-    $(".backdrop iframe").attr("src", $(".backdrop iframe").attr("src"));
-    localStorage.setItem('video-intro', 'true')
-})
+$(document).ready(function (){
+    $('.botao-fechar').click(function () {
+        $('.backdrop').fadeOut();
+        const stopVideos = () => {
+            document.querySelectorAll('iframe').forEach(v => { v.src = v.src });
+            document.querySelectorAll('video').forEach(v => { v.pause() });
+        };
+        stopVideos();
+    })
+    $('.btVideo').click(function () {
+        $('.backdrop').fadeIn()
+    })
+    
+});
+
