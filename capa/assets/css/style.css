@@ -5,12 +5,8 @@
 }
 
 body {
-  background-image: url(../img/bg.png);
+  background-image: url('../img/background.png');
   background-repeat: no-repeat;
-  animation-name: bg-animation;
-  animation-duration: 8s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 300ms;
   animation-fill-mode:forwards;
 }
 
@@ -18,45 +14,23 @@ img {
   max-width: 100%;
 }
 
-.arte-esquerda {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  animation-name: arte-esquerda;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 300ms;
-  animation-fill-mode:backwards;
-  width: 28vw;
-}
-
-.arte-direita {
-  position: fixed;
-  top: 0;
-  right: 0;
-  animation-name: arte-direita;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 300ms;
-  animation-fill-mode:backwards;
-  width: 30.3vw;
-}
-
+/* 
 .capa-container {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   overflow: hidden;
-}
+  z-index: 100;
+} */
 
-.mulher {
+.cartaz1 {
   position: fixed;
-  left: 0;
+  right: 0;
   bottom: 0%;
-  width: 54.5vw;
-  animation-name: mulher;
+  width: 43vw;
+  animation-name: cartaz;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
   animation-delay: 300ms;
@@ -68,241 +42,106 @@ img {
   top: 0;
   position: fixed;
 }
-
-.vaso-bg {
-  position: fixed;
-  left: 28.9vw;
-  bottom: 4.4vw;
-  width: 24.5vw;
-  animation-name: mulher;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 300ms;
-  animation-fill-mode: backwards;
-}
-
-.flores {
-  width: 37.5vw;
-  height: 39vw;
-  position: fixed;
-  left: 23.5vw;
-  bottom: 7vw;
-  animation-name: mulher;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 300ms;
-  animation-fill-mode: backwards;
-  overflow: hidden;
-}
-
-.flor {
+/*-------------- Modal vídeo intro --------------*/
+.imgVideo {
+  margin-left: 35px;
+  margin-top: 40px;
   position: absolute;
-  transition: 300ms;
+  background: url('../img/Video_apresentacao_pq_layout.png') no-repeat;
+  background-size: 100%;
+  width: 236px;
+  height: 226px;
+  border: none;
+  transition: all 0.2s;
 }
-
-.flor-1 {
-  width: 8vw;
-  bottom: 0vw;
-  right: 0;
-  animation-name: revela-flor-1;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 1.5s;
-  animation-fill-mode: backwards;
+.imgVideo:hover{
+  transform: scale(1.05);
+  
 }
-
-.flor-2 {
-  width: 8vw;
-  bottom: 0vw;
-  left: 13vw;
-  animation-name: revela-flor-2;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 1.5s;
-  animation-fill-mode: backwards;
-} 
-
-.flor-3 {
-  width: 10vw;
-  bottom: 0vw;
-  left: 0vw;
-  animation-name: revela-flor-3;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 1.5s;
-  animation-fill-mode: backwards;
-} 
-
-.flor-4 {
-  width: 12vw;
-  bottom: -1vw;
-  left: 24vw;
-  animation-name: revela-flor-4;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 1.5s;
-  animation-fill-mode: backwards;
+.modal-dialog:not(.modal-fullscreen) {
+  border-radius: 0;
 }
-
-.flor-5 {
-  width: 12.634vw;
-  bottom: -2vw;
-  left: 13vw;
-  animation-name: revela-flor-4;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 1s;
-  animation-fill-mode: backwards;
+.modal-dialog:not(.modal-fullscreen) .btn-close{
+  color: white;
+  font-size: 1.5rem;
+  line-height: 0;
 }
-
-.flor-6 {
-  width: 12.634vw;
-  bottom: -2vw;
-  left: 2vw;
-  animation-name: revela-flor-3;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0.8s;
-  animation-fill-mode: backwards;
+.modal-dialog:not(.modal-fullscreen) .modal-content{
+  border-radius: 0;
 }
-
-.flor-7 {
-  width: 12.634vw;
-  bottom: -2vw;
-  left: 22vw;
-  animation-name: revela-flor-7;
-  animation-duration: 6s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0.5s;
-  animation-fill-mode: backwards;
+.modal-dialog .modal-header{
+  border-bottom: 0;
 }
-
-.flor-8 {
-  width: 7vw;
-  bottom: -2vw;
-  left: 11vw;
-  animation-name: revela-flor-7;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0.7s;
-  animation-fill-mode: backwards;
+.modal-dialog:not(.modal-fullscreen) .modal-header{
+  color: white;
+  background-color: #00838D;
+  border-radius: 0;
+  border-bottom: 0;
 }
-
-.flor-9 {
-  width: 11.33vw;
-  bottom: -2vw;
-  left: 3vw;
-  animation-name: revela-flor-7;
-  animation-duration: 6s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0.7s;
-  animation-fill-mode: backwards;
+.modal-dialog .modal-footer{
+  border: 0;
+  border-top: 0;
+  padding: 0;
+  padding-bottom: 10px;
 }
-
-.menu {
-  border: 2px solid #262626;
-  background: #fff;
-  padding: 30px;
-  border-radius: 40px;
+.ytb {
+  width: 560px;
+  height: 315px;
+  display: block;
+  margin: 25px auto;
+  max-width: 100%;
+}
+.backdrop {
+  height: 100vh;
+  width: 100vw;
   position: absolute;
-  top: 2vw;
-  right: 2vw;
-  background: linear-gradient(to bottom, #fff, #fff, #cccccc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  width: 350px;
+  top: 0;
+  left: 0;
+  background-color: rgba(35, 35, 35, .9);
+  z-index:999999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-intro {
+  background-image: url('../img/video_bg.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1000px;
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  gap: 10px;
-  animation-name: menu;
-  animation-duration: 6s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0.7s;
-  animation-fill-mode: backwards;
-  max-width: 80%;
-}
-
-.menu h3 {
-  font-family: roboto;
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
-
-.menu a {
-  font-family: roboto;
-  height: 70px;
-  color: #fff;
-  border: 2px solid #262626;
-  background-color: #fff;
-  border-radius: 50px;
-  text-decoration: none;
   justify-content: center;
   align-items: center;
+}
+.modal-intro p {
+  margin-top: -70px;
+  color: white;
+}
+.footer {
   display: flex;
-  text-transform: uppercase;
-  font-size: 15px;
-  transition: 500ms;
-  position: relative;
-  background: linear-gradient(to right, #fe3f86, #be2747);
-  text-align: center;
+  justify-content: end;
+  width: 480px;
+  padding-top: 10px;
 }
-
-.menu a::before {
-  position: absolute;
-  content: "Botão";
-  background-color: #fff;
-  width: 100%;
-  height: 100%;
-  border-radius: 50px;
-  transition: 400ms;
-  display: flex;
-  color: #262626;
-  align-items: center;
-  justify-content: center;
+.botao-fechar,
+.botao-fechar-2 {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  box-shadow: 2px 1px 3px #333;
 }
-
-.menu a:nth-child(2)::before {
-  content: "Relembrando os módulos anteriores";
+.botao-fechar:hover,
+.botao-fechar-2:hover {
+  transform: translateY(-3px);
 }
-
-.menu a:nth-child(3)::before {
-  content: "Fomento à cultura";
-}
-
-.menu a:nth-child(4)::before {
-  content: "Políticas públicas para a cultura";
-}
-
-.menu a:nth-child(5)::before {
-  white-space: pre;
-  content: "História das políticas públicas \A culturais no Brasil";
-}
-
-.menu a:nth-child(6)::before {
-  white-space: pre;
-  content: "Ferramentas para fomento cultural";
-}
-
-.menu a:nth-child(7)::before {
-  white-space: pre;
-  content: "Financiamento privado";
-}
+/*-------------- /Modal vídeo intro --------------*/
 
 
-.menu a:nth-child(8)::before {
-  white-space: pre;
-  content: "Qual o papel do produtor cultural\A nesta história?";
-}
-
-
-.menu a:nth-child(9)::before {
-  white-space: pre;
-  content: "Referências";
-}
-
-.menu a:hover::before {
-  opacity: 0;
-}
 
 .cabecalho {
   background-color: #00828a;
@@ -317,92 +156,20 @@ img {
   }
 }
 
-@keyframes arte-esquerda {
+
+
+
+@keyframes cartaz {
   0%   {
-    transform: translateY(400px);
+    transform: translateX(550px);
   }
   100% {
     transform: translateY(0);
   }
 }
 
-@keyframes arte-direita {
-  0%   {
-    transform: translateY(-400px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes mulher {
-  0%   {
-    transform: translateX(-400px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes revela-flor-1 {
-  0%   {
-    transform: translate(-400px, 400px);
-    width: 1vw;
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-
-@keyframes revela-flor-2 {
-  0%   {
-    transform: translateY(400px);
-    width: 1vw;
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-
-@keyframes revela-flor-3 {
-  0%   {
-    transform: translate(400px, 400px);
-    width: 1vw;
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-
-@keyframes revela-flor-4 {
-  0%   {
-    transform: translateY(500px);
-    width: 1vw;
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-
-@keyframes revela-flor-7 {
-  0%   {
-    transform: translateY(700px);
-    width: 1vw;
-  }
-  100% {
-    transform: translate(0);
-  }
-}
 
 
-@keyframes menu {
-  0%   {
-    transform: translatex(500px);
-  }
-  100% {
-    transform: translate(0);
-  }
-}
 
 @media screen and (max-width: 950px) {
   .titulo {

@@ -222,6 +222,9 @@ color:#c78023;}
   color:#c78023;}
 .pagina6 h2{ font-family:'Englebert';}
 .pagina6 p{color: #fff;}
+.pagina7 p{color: #fff;}
+.pagina7 h2{ font-family:'Englebert';
+  color:#c78023;}
 .podcast-container {
   width: 854px;
   height: 301px;
@@ -377,11 +380,18 @@ margin: auto;
 .marca-texto{background-color: #fcf081;
 width: 36%;}
 
+.pg7-bg_dir1{  
+  margin-top: 15%;
+  right: 3%;
+  position: absolute;}
 
+.mirela2{margin-top: 4%;}
 
-
-
-
+.pg7-bg_dir2{
+  margin-top: 75%;
+  right: 3%;
+  position: absolute;
+}
 
 
 
@@ -871,7 +881,8 @@ p {
     z-index: -1;}
 
 .pg5-bg_dir{display: none;}
-
+.pg7-bg_dir1{display: none;}
+.pg7-bg_dir2{display: none;}
 }
 
 
@@ -1014,6 +1025,10 @@ p {
   font-size: 20px;
   margin-right: 6%;
 }
+.produtor1{margin-top: 20%;}
+.mirela2 {
+  margin-top: 20%;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -1059,6 +1074,10 @@ p {
   margin-left: -72%;
   font-size: 20px;
   margin-right: 7%;
+}
+.produtor1{margin-top: 31%;}
+.mirela2 {
+  margin-top: 20%;
 }
 }
 
@@ -1166,5 +1185,5 @@ p {
   font-size: 20px;
   margin-right: -3%;
 }
-
+.produtor1{display:none;}
 }
