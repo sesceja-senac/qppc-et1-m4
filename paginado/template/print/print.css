@@ -92,6 +92,28 @@ font-weight: 700;
 .only-print, .apenas-print, .apenas-imprimir {
   display: none;
 }
+figure{margin: auto;}
+.pagina figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.pagina figcaption {
+  display: block;
+  text-align: center;
+
+}
+.getulio{
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
 
 @media print {
 

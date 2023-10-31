@@ -15,8 +15,12 @@
 
 /* VALORES DEFAULT DE TUDO*/
 
+figure{margin: auto;}
 
-
+figcaption {
+  font-size: 14px;
+  text-align: center;
+}
 
 .pagina a:link	{
   color: (internal value);
@@ -130,13 +134,17 @@
   .pagina figcaption	{
   display: block;	
   }
-  .pagina figure	{
+  .pagina figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pagina figcaption {
   display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 40px;
-  margin-right: 40px;	
-  }
+  text-align: center;
+}
   .pagina footer	{
   display: block;	
   }
@@ -222,9 +230,9 @@
   .pagina iframe[seamless]{
   display: block;	
   }
-  .pagina img	{
-  display: inline-block;
-  }	
+   .pagina img	{
+  margin: auto;
+  }	 
   
   .pagina ins	{
   text-decoration: underline;	
@@ -879,4 +887,11 @@ table.sesc th {
 
 .ui-paginacao {
   display: none !important;
+}
+.img-center{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
 }
