@@ -3,6 +3,12 @@
   font-family: roboto;
   src: url(../fonts/Roboto-Medium.ttf);
 }
+@font-face {
+  font-family: poppins-bold;
+  src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+
+
 
 body {
   background-image: url('../img/background.png');
@@ -37,11 +43,37 @@ img {
   animation-fill-mode:backwards;
 }
 
-.titulo {
-  left: 0;
-  top: 0;
+.titulo1 {
+  left: 14%;
+  top: 40%;
   position: fixed;
+  width: 30%;
+  font-family: poppins-bold;
 }
+
+.iniciar1{
+  top: 76%;
+  left: 22%;
+  width: 179px;
+  height: 67px;
+  position: absolute;
+  z-index: 99999;
+  background: url('../img/btn_iniciar_hover_scale.png') no-repeat;
+}
+
+.iniciar1:hover{
+transform: scale(1.1);
+
+}
+
+
+
+
+
+
+
+
+
 /*-------------- Modal vídeo intro --------------*/
 .imgVideo {
   margin-left: 35px;
