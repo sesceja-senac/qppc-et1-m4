@@ -237,13 +237,19 @@ p{
 }
 
 .caixa.icone{
-    padding: 40px;
+    padding: 30px;
     padding-left: 75px;
     position: relative;
     margin-left: 20px; 
     margin-top: 60px;
     margin-bottom: 30px;
-    color: #fff;  
+    color: #fff;
+    background-color: #fff;  
+    border-radius: 20px;
+}
+
+.caixa.icone p{
+    color: #000;
 }
 
 .btn-sesc, .btn-sesc-image{

@@ -11,7 +11,10 @@
 }
 
 .icone.dica::before{
-    background-image: url(../img/ico-dica-b.png);
+    background-image: url(../img/ico_dica2.png);
+    width: 119px;
+    height: 127px;
+    left: -44px;
 }
 
 .icone.praticar::before{

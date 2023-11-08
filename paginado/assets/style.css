@@ -776,12 +776,6 @@ p {
   display: none;
 }
 
-.modal-content .icone.dica::before {
-  background-color: #e4e4e4;
-      width: 65px;
-    height: 95px;
-    background-image: url(../template/img/ico-dica.png)
-}
 
 .modal-body .icone.atencao::before {
   background-color: transparent;
