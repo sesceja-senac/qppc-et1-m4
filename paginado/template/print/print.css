@@ -112,8 +112,18 @@ figure{margin: auto;}
   margin-left: 40px;
   margin-right: 40px;
 }
-
-
+.tooltip-link{    
+  text-decoration: underline;
+  text-decoration-color: blue;}
+.bt-tooltip {
+  border: none;
+  border-bottom: 2px dashed;
+  background: unset;
+  padding: 0;
+  
+}
+.citacao {
+  margin-left: 20% !important;}
 
 @media print {
 

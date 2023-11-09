@@ -649,6 +649,7 @@ h3, .subtitulo{
 }
 .modal-dialog:not(.modal-fullscreen) .modal-content{
     border-radius: 0;
+    z-index: 10;
 }
 .modal-dialog .modal-header{
     border-bottom: 0;
