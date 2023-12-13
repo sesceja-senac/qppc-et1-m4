@@ -63,7 +63,7 @@ transform: scale(1.1);
   bottom:2%;
   width:20%;
   position: absolute;
-  right: 3%;
+  left: 3%;
   font-family: poppins-bold;
 }
 
@@ -308,11 +308,10 @@ margin-top: 2%;}
 }
 .titulo1 {
   left: 3%;
-  top: 55%;
+  top: 64%;
   position: fixed;
-  width: 95%;
+  width: 97%;
   font-family: poppins-bold;
-
 }
 .iniciar1 {
   position: absolute;
