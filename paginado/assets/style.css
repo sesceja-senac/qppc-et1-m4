@@ -295,7 +295,7 @@ li {
 
 .pagina5 h2 {
   font-family: 'Englebert';
-  color: #c78023;
+  color: #fff;
 }
 
 .pagina6 h2 {
@@ -312,7 +312,7 @@ li {
 
 .pagina7 h2 {
   font-family: 'Englebert';
-  color: #c78023;
+  color: #fff;
 }
 
 .podcast-container {
@@ -511,7 +511,7 @@ h4 {
 
 .marca-texto {
   background-color: #fcf081;
-  width: 36%;
+  width: 40%;
 }
 
 .pg7-bg_dir1 {
@@ -648,12 +648,12 @@ h2 {
   transform: rotateY(180deg);
 }
 
-.modal-body h2,
-.modal-body p,
+/* .modal-body h2,
 .modal-body figcaption,
+.modal-body p,
 .modal-body h5 {
   color: #00828b;
-}
+} */
 
 .modal-content {
   z-index: 100;
@@ -1268,7 +1268,7 @@ p {
 
   .marca-texto {
     background-color: #fcf081;
-    width: 44%;
+    width: 47%;
   }
 }
 
