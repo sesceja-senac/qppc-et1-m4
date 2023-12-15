@@ -302,6 +302,14 @@ li {
   color: #000;
 }
 
+.pagina6 .modal-body p {
+  font-family: 'Englebert';
+  color: #000;
+}
+.pagina6 .modal-body h2 {
+  font-family: 'Englebert';
+  color: #000;
+}
 .pagina6 h2 {
   font-family: 'Englebert';
 }
@@ -320,9 +328,9 @@ li {
 }
 
 .podcast-container {
-  width: 854px;
-  height: 301px;
-  background-image: url('../assets/pagina2/podcast.png');
+  width: 855px;
+  height: 302px;
+  background-image: url('../assets/pagina6e7/podcast.png');
   margin: 50px auto 30px auto;
   display: flex;
   justify-content: center;
@@ -335,6 +343,7 @@ li {
   justify-content: center;
   align-items: center;
   margin-left: -35px;
+  margin: 75px 0;
 
 }
 
@@ -496,7 +505,7 @@ h4 {
 }
 
 .moedas2 {
-  margin-top: -26%;
+  margin-top: -11%;
 }
 
 .pg5-bg_dir {
@@ -1248,7 +1257,7 @@ p {
   }
 
   .moedas2 {
-    margin-top: -22%;
+    margin-top: -9%;
   }
 
   .produtor1 {
@@ -1315,13 +1324,13 @@ p {
   }
 
   .moedas2 {
-    margin-top: -16%;
+    margin-top: 11%;
   }
 
   .produtor1 {
     margin-top: 31%;
   }
-
+  .produtor-img{margin-top: 15%;}
   .mirela2 {
     margin-top: 20%;
   }
