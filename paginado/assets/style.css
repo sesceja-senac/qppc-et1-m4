@@ -796,6 +796,11 @@ h2 {
 
 }
 
+.modais-container-mobile {
+  display: none;
+  }
+
+.modais-container{display: block;}
 .modais-container {
   width: 1108px;
   height: 778px;
@@ -972,11 +977,6 @@ p {
   pointer-events: none;
 }
 
-.modais-container-mobile {}
-
-.modais-container-mobile {
-  display: none;
-}
 
 .desk3 {
   display: block;
@@ -1089,15 +1089,24 @@ p {
   }
 }
 
-@media only screen and (max-width: 1000px) {
 
-  .modais-container-mobile {
-    display: block;
+@media screen and (max-width: 1000px){
+.modais-container-mobile {
+  background: url('../assets/pagina6e7/bg-mobile.png');
+  display: block;
+  padding-top: 5%;
+  padding-bottom: 5%;
   }
-
   .modais-container {
     display: none;
   }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
 
   .cabecalho {
     background-color: #00828a;
