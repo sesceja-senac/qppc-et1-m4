@@ -297,6 +297,10 @@ li {
   font-family: 'Englebert';
   color: #fff;
 }
+.pagina5 .modal-body h2 {
+  font-family: 'Englebert';
+  color: #000;
+}
 
 .pagina6 h2 {
   font-family: 'Englebert';
@@ -488,7 +492,7 @@ h4 {
 }
 
 .moedas {
-  margin-top: -13%;
+  margin-top: 6%;
 }
 
 .moedas2 {
@@ -918,7 +922,10 @@ p {
 .show-mobi {
   display: none;
 }
-
+.desk4{
+  display: block;
+}
+.mobile4{display: none;}
 
 .modal-body .icone.atencao::before {
   background-color: transparent;
@@ -1179,7 +1186,10 @@ p {
   .pg4-bg_dir1 {
     display: none;
   }
-
+  .desk4{
+    display: none;
+  }
+  .mobile4{display: block;}
 }
 
 
@@ -1301,7 +1311,7 @@ p {
   }
 
   .moedas {
-    margin-top: 10%;
+    margin-top: 31%;
   }
 
   .moedas2 {
