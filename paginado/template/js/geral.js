@@ -32,13 +32,13 @@ $("#navbarScrollingDropdown span").html(
     document.body.style.backgroundImage = "url('images/bg_pg3.jpg')";
   } else if (pg_number == 4) {
     document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')";
-  } else if (pg_number == 5) {
-    document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')";
-  } else if (pg_number == 6) {
+/*   } else if (pg_number == 5) {
+    document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')"; */
+/*   } else if (pg_number == 6) {
     document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')";
   }
 else if (pg_number == 7) {
-  document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')";
+  document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')"; */
 } else if (pg_number == 8) {
   document
   document.body.style.backgroundImage = "url('assets/pagina6e7/refs.jpg')";
