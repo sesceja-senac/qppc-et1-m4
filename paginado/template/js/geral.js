@@ -22,7 +22,7 @@ $("#navbarScrollingDropdown span").html(
   //alert('URL: '+pg_number);
 
   if (pg_number == 1) {
-    document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')";
+    document.body.style.backgroundImage = "url('assets/pagina1/background1.jpg')";
   } else if (pg_number == 2) {
     document.body.style.backgroundImage = "url('assets/pagina1/background.jpg')";
     document
